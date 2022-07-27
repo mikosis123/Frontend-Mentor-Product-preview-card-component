@@ -1,0 +1,164 @@
+                    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+                    * {
+                        padding: 0%;
+                        margin: 0%;
+                    }
+                    
+                    body {
+                        background-color: hsl(30, 38%, 92%);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    
+                    .image1 {
+                        display: none;
+                    }
+                    
+                    .image2 {
+                        display: block;
+                        width: 345px;
+                        border-radius: 15px 15px 0 0;
+                    }
+                    
+                    .main_container {
+                        background-color: hsl(30, 38%, 92%);
+                        border-radius: 50px 50px 50px 50px;
+                        margin: 29px 17px;
+                        height: 624px;
+                    }
+                    
+                    .rightpart {
+                        background-color: #fff;
+                        width: 345px;
+                        height: 370px;
+                        border-radius: 15px 15px 15px 15px;
+                    }
+                    
+                    .perfume {
+                        padding: 20px 180px 20px 30px;
+                        font-family: 'Montserrat', sans-serif;
+                        color: hsl(228, 12%, 48%);
+                        opacity: 0.9;
+                    }
+                    
+                    .preview {
+                        padding: 0px 41px 26px 33px;
+                        font-family: 'Fraunces', serif;
+                        font-size: x-large;
+                    }
+                    
+                    .description {
+                        padding: 0px 28px 10px 33px;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                    
+                    .description p {
+                        font-size: 14px;
+                        color: hsl(228, 12%, 48%);
+                        gap: 15;
+                        opacity: 0.9;
+                    }
+                    
+                    .money {
+                        display: inline;
+                    }
+                    
+                    .money h1 {
+                        display: inline;
+                        float: left;
+                        text-align: center;
+                        font-family: 'Fraunces', serif;
+                        font-weight: bolder;
+                        font-size: xx-large;
+                        color: #3d8168;
+                        padding: 0px 19px 22px 27px;
+                    }
+                    
+                    .money p {
+                        display: inline;
+                        float: right;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 100;
+                        font-size: 14px;
+                        text-decoration: line-through;
+                        opacity: 0.9;
+                        color: hsl(228, 12%, 48%);
+                        padding-right: 100px;
+                        padding-top: 15px;
+                        margin: 0%;
+                    }
+                    
+                    .buttonon {
+                        background-color: #3d8168;
+                        font-family: 'Montserrat', sans-serif;
+                        margin: 0px 26px;
+                        padding: 15px 88px;
+                        display: flex;
+                        -webkit-box-pack: center;
+                        align-items: center;
+                        color: white;
+                        border-radius: 8px;
+                        border: none;
+                        gap: 6px;
+                    }
+                    
+                    .buttonon:hover {
+                        background-color: hsl(159, 85%, 8%);
+                    }
+                    
+                    .buttonon img {
+                        display: inline;
+                        float: left;
+                    }
+                    
+                    .buttonon h1 {
+                        display: inline;
+                        float: right;
+                    }
+                    
+                    .attribution {
+                        display: none
+                    }
+                    
+                    @media (min-width: 570px) {
+                        .image1 {
+                            display: block;
+                            width: 304px;
+                            height: auto;
+                            border-radius: 15px 0px 0px 15px;
+                        }
+                        .image2 {
+                            display: none;
+                        }
+                        .main_container {
+                            display: flex;
+                            -webkit-box-pack: justify;
+                            align-items: center;
+                            margin: 174px 530px;
+                        }
+                        .rightpart {
+                            width: 304px;
+                            border-radius: 0px 15px 15px 0px;
+                            height: 460px;
+                        }
+                        .buttonon {
+                            background-color: #3d8168;
+                            margin: 20px 32px 0px 33px;
+                            padding: 15px 61px;
+                            display: flex;
+                            -webkit-box-pack: center;
+                            align-items: center;
+                        }
+                        .description {
+                            margin-bottom: 30px;
+                        }
+                        .money {
+                            margin-top: 50px;
+                        }
+                        .money p {
+                            padding-top: 0px;
+                            padding-right: 50px;
+                        }
+                    }
