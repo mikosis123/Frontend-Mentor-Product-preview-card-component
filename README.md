@@ -9,7 +9,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Built with](#built-with)
 
 ### Screenshot
-
+![](images/screencapture-file-C-Users-pc-Desktop-evangadi-miki-frontend-mentor-project-product-preview-card-component-main-index-html-2022-07-27-10_25_55.png)
+![](images/screencapture-file-C-Users-pc-Desktop-evangadi-miki-frontend-mentor-project-product-preview-card-component-main-index-html-2022-07-27-10_27_28.png)
 ## My process
 
 ### Built with
